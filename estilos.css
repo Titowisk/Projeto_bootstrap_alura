@@ -1,0 +1,91 @@
+body, html {
+    height: 100%;
+}
+
+header {
+    height: 100%;
+    background-image: url('img/castelo.jpg');
+    background-position: center top;
+    background-size: cover;
+     
+}
+
+.topCasaFina-banner h1 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.topCasaFina-banner {
+    color: #fff;
+    background: rgba(0,0,0,.6);
+    padding: 20px;
+    width: 80%;
+    border-radius: 10px;
+    position: absolute; /*The element is positioned relative to its first positioned (not static) ancestor element */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: .3s;
+}
+
+#accordion {
+    margin-top: 20px;
+}
+
+.jumbotron {
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.depoiment-title {
+    background-color: #0275D8;
+    color: #FFF;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    font-size: 24px;
+    
+}
+
+.radio-group{
+    width: 50%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.radio-group .radio:first-child {
+    margin-top: 0;
+}
+
+.select-group {
+    width: 50%;
+    display: inline-block;
+    float: right;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    margin-top: 20px;
+    padding-top: 10px;
+}
+
+@media(min-width: 768px) {
+    #accordion {
+        margin-top: 0px;
+    }
+}
+
+@media(min-width: 992px) {
+    .topCasaFina-banner {
+        left: 0;
+        transform: translate(0, -70%);
+        width: 50%;
+    }
+
+    .topCasaFina-bannerWrapper {
+        position: relative;
+        height: 100%;
+    }
+}
+
